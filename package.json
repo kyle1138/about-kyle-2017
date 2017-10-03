@@ -1,0 +1,29 @@
+{
+  "name": "about-kyle",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start": "NODE_ENV=production node app.js",
+    "start-dev": "NODE_ENV=development node-dev app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kyle1138/about-kyle-2017.git"
+  },
+  "author": "kyle1138",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyle1138/about-kyle-2017/issues"
+  },
+  "homepage": "https://github.com/kyle1138/about-kyle-2017#readme",
+  "dependencies": {
+    "easy-livereload": "^1.3.0",
+    "express": "^4.16.1",
+    "express-livereload": "0.0.24",
+    "livereload": "^0.6.2",
+    "node-dev": "^3.1.3"
+  }
+}
